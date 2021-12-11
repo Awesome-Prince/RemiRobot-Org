@@ -42,7 +42,7 @@
 
     {
 
-      "url": "https://github.com/Hodacka/heroku-buildpack-ffmpeg-latest"
+      "url": "https://heroku.com/deploy?template=https://github.com/Hodacka/RemiRobot"
 
     },
 
