@@ -24,8 +24,8 @@ The easiest way to deploy this Bot
 
 ## Devloper
 
-#### • [@Horimaya](https://t.me/Horimaya) (OWNER) 
-#### • [@cRaZyBoY_420](https://t.me/cRaZyBoY_420) (DEV)
+#### • [Lovely Boy](https://t.me/Horimaya) (OWNER) 
+#### • [Crazy Boy](https://t.me/cRaZyBoY_420) (DEV)
 
 
 ## Special Credits
