@@ -209,13 +209,13 @@ def uwu(update: Update, context: CallbackContext):
 
 __help__ = """
  • `/cuddle`*:* cuddle someone by replying to his/her message or get cuddled
- • `/hug`*:* hug someone or get hugged by Emilia
+ • `/hug`*:* hug someone or get hugged by Remi
  • `/love`*:* Checks Love in your heart weather it's true or fake
  • `/kiss`*:* Kiss someone or get kissed 
- • `/pat`*:* Pat someone or get patted by Emilia
- • `/flirt`*:* Emilia will flirt to the replied person or with you
- • `/lewd`*:* Emilia will act lewd with you or with the replied person
- • `/romance`*:* Emilia will act all romantic with you or replied person
+ • `/pat`*:* Pat someone or get patted by Remi
+ • `/flirt`*:* Remi will flirt to the replied person or with you
+ • `/lewd`*:* Remi will act lewd with you or with the replied person
+ • `/romance`*:* Remi will act all romantic with you or replied person
 """
 
 CUDDLE_HANDLER = DisableAbleCommandHandler("cuddle", cuddle)
