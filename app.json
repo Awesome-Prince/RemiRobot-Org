@@ -1,18 +1,19 @@
 {
-      "name": "KURUMI",
+      "name": "RemiRobot",
+      " logo": "https://telegra.ph/file/927c17710ad7108efec4c.jpg",
       "description": "An Anime themed Telegram group management bot.",
       "keywords": [
          "telegram",
          "anime",
          "group",
          "manager",
-         "KURUMI"
+         "RemiRobot"
       ],   
-   "repository": "https://github.com/Hirojazz/KURUMIBOT",
+   "repository": "https://github.com/Hodacka/RemiRobot",
    "addons": [
       {
          "options": {
-            "version": "12"
+            "version": "1"
          },
          "plan": "heroku-postgresql"
       }
@@ -41,16 +42,16 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "875506783"
+         "value": "1732814103"
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "Roronoa Zoro"
+         "value": "Horimaya"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
          "required": true,
-         "value": "MyAwesomeSupportGroupGoesHere"
+         "value": "RemiSupport"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
@@ -75,7 +76,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Saitama support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "875506783"
+         "value": "1732814103 2030938170"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
@@ -89,17 +90,17 @@
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "875506783"
+         "value": "2030938170"
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "875506783"
+         "value": "2030938170"
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
          "required": false,
-         "value": ""
+         "value": "2030938170"
       },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
@@ -113,7 +114,7 @@
       "WEBHOOK": {
          "description": "Setting this to ANYTHING will enable webhooks. If you dont know how this works leave it as it is",
          "required": false,
-         "value": ""
+         "value": "ANYTHING"
       },
       "PORT": {
          "description": "Port to use for your webhooks. Better leave this as it is on heroku",
