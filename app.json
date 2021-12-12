@@ -114,7 +114,7 @@
       "WEBHOOK": {
          "description": "Setting this to ANYTHING will enable webhooks. If you dont know how this works leave it as it is",
          "required": false,
-         "value": "ANYTHING"
+         "value": ""
       },
       "PORT": {
          "description": "Port to use for your webhooks. Better leave this as it is on heroku",
