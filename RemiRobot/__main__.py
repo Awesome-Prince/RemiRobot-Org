@@ -77,6 +77,12 @@ buttons = [
     [
         InlineKeyboardButton(
             text="💞Check My Friend💞", url="https://t.me/NekoXRobot"),
+
+    ],
+    [
+        InlineKeyboardButton(
+            text="Source code", url="https://GitHub.com/Hodacka/RemiRobot"),
+
     ],
     [
         InlineKeyboardButton(
