@@ -5,7 +5,7 @@ from pyrogram.types import *
 from RemiRobot.conf import get_str_key
 from RemiRobot import pgram
 
-REPO_TEXT = "**A Cute [BOT](https://telegra.ph/file/d2815963abcae6fa20dc8.jpg) to Make Your Groups Secured and Organized ! \n\n↼ Owner ⇀ : 『 [Lovely](t.me/Horimaya) 』\n╭──────────────\n┣─ » Python ~ 3.8.6\n┣─ » Update ~ Recently\n╰──────────────\n\n»»» @CrowdXStrike «««"
+REPO_TEXT = "**A Cute [BOT](https://telegra.ph/file/d2815963abcae6fa20dc8.jpg) to Make Your Groups Secured and Organized ! \n\n↼ Owner ⇀ : 『 [Lovely](t.me/Horimaya) 』\n╭──────────────\n┣─ » Python ~ 3.8.6\n┣─ » Update ~ @CrowdXStrike\n╰──────────────\n\n»»» Powered by @Horimaya «««"
   
 BUTTONS = InlineKeyboardMarkup(
       [[
@@ -16,12 +16,12 @@ BUTTONS = InlineKeyboardMarkup(
         InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ 💞", url="https://t.me/RemiSupport"),
       ],[
         InlineKeyboardButton("❤️ ᴜᴘᴅᴀᴛᴇꜱ ❤️", url="https://t.me/CrowdXStrike"),
-        InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ 💕", url="https://t.me/CrazyBoy_430"),
+        InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ 💕", url="https://t.me/CrazyBoy_420"),
       ]]
     )
   
   
-@pbot.on_message(filters.command(["repo"]))
+@pgram.on_message(filters.command(["repo"]))
 async def repo(pgram, update):
     await update.reply_text(
         text=REPO_TEXT,
