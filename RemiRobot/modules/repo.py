@@ -3,7 +3,7 @@ from pyrogram import Client, filters
 from pyrogram.types import *
 
 from RemiRobot.conf import get_str_key
-from RemiRobot import pbot
+from RemiRobot import tbot
 
 REPO_TEXT = "**A Cute [BOT](https://telegra.ph/file/d2815963abcae6fa20dc8.jpg) to Make Your Groups Secured and Organized ! \n\n↼ Owner ⇀ : 『 [Lovely](t.me/Horimaya) 』\n╭──────────────\n┣─ » Python ~ 3.8.6\n┣─ » Update ~ Recently\n╰──────────────\n\n»»» @CrowdXStrike «««"
   
